@@ -1,0 +1,58 @@
+*, HTML {
+    margin: 0;
+    padding: 0;
+ }
+
+.menu {
+    background-color: red;
+    display:flex;
+    block-size: 60px;
+    align-items: center;
+}
+
+.footer {
+    background-color: black;
+    display:inline-block;
+    block-size: 60px;
+    align-items: center;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+
+.grid-vid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-left:12%;
+    padding-right: 12%;
+    padding-top: 2%;
+    width: 300px;
+    height: 333px;
+}
+
+.video {
+    display:inline;
+    border-radius: 2px;
+    border-style:solid;
+    border-color: red;
+    text-align: center;
+    font-size:larger;
+    background-color: black;
+    color:red;
+}
+
+#fora {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    float:right;
+}
